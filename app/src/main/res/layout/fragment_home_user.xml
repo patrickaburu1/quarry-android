@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.quarryapp.Fragments.HomeUser">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="26sp"
+        android:text="Welcome to Online Quarry System"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="@dimen/nav_header_vertical_spacing" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+
+        <RelativeLayout
+            android:id="@+id/bookRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/main_imv_booktickets"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+                />
+
+            <TextView
+                android:id="@+id/main_txv_booktickets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_booktickets"
+                android:layout_centerHorizontal="true"
+                android:text="Sales"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/viewTicketsRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/main_imv_viewtickets"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+                android:src="@drawable/viewticket" />
+
+            <TextView
+                android:id="@+id/main_txv_viewtickets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_viewtickets"
+                android:layout_centerHorizontal="true"
+                android:text="Add products"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+
+        <RelativeLayout
+            android:id="@+id/viewRoutesRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/main_imv_viewroute"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+                />
+
+            <TextView
+                android:id="@+id/main_txv_viewroute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_viewroute"
+                android:layout_centerHorizontal="true"
+                android:text="Remove product"
+                android:textAlignment="center" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/contactUsRelaive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33">
+
+            <ImageView
+                android:id="@+id/main_imv_contactus"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+
+                />
+
+            <TextView
+                android:id="@+id/main_txv_contactus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_contactus"
+                android:layout_centerHorizontal="true"
+                android:text="Block User"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/fareDetailsRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/main_imv_fairdetail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+                />
+
+            <TextView
+                android:id="@+id/main_txv_fairdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_fairdetail"
+                android:layout_centerHorizontal="true"
+                android:text="Add Users"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logoutRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/main_imv_logout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/background_light"
+                android:src="@drawable/logouttt" />
+
+            <TextView
+                android:id="@+id/main_txv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_imv_logout"
+                android:layout_centerHorizontal="true"
+                android:text="Log Out"
+                android:textAlignment="center" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
